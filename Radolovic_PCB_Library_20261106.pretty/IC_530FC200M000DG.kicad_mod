@@ -1,0 +1,92 @@
+(footprint "IC_530FC200M000DG"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Standard Clock Oscillators Differential/single-ended; single frequency XO; OE pin 2 (pin 1 for CMOS); 10-1417 MHz")
+	(property "Reference" "REF**"
+		(at 0 -4.015 0)
+		(layer "F.SilkS")
+		(uuid "3a5b61fb-7ff5-4674-9ed4-3d22f67e4e1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IC_530FC200M000DG"
+		(at 0 4.015 0)
+		(layer "F.Fab")
+		(uuid "c79957fa-5c05-4b13-ba0b-2d3529a2f858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9783f6e8-a3de-4bd2-ada5-a8ffa9c061d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ace5d10-885f-4345-8377-fb313b36e5fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -2.1 -2.54 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0449cc01-81c7-4116-ab9a-a221f2ec1b4e")
+	)
+	(pad "2" smd rect
+		(at -2.1 0 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b842e7e-eb9e-4789-b541-c0014d6c651d")
+	)
+	(pad "3" smd rect
+		(at -2.1 2.54 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af1211f6-32a9-477f-891a-b2ff07f30292")
+	)
+	(pad "4" smd rect
+		(at 2.1 2.54 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60c383e0-5595-413c-a268-fd04faad670b")
+	)
+	(pad "5" smd rect
+		(at 2.1 0 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ee82e58-2c02-4ef9-899f-9cfc7a619c94")
+	)
+	(pad "6" smd rect
+		(at 2.1 -2.54 90)
+		(size 1.55 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "962c0aaf-5cf7-46e5-8921-e10f70619cd5")
+	)
+	(embedded_fonts no)
+)

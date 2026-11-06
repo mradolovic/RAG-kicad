@@ -1,0 +1,112 @@
+(footprint "TB003-500-P02BE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 -4.827 0)
+		(layer "F.SilkS")
+		(uuid "05aaaf3a-8ecb-4852-8ce3-24dc77df25ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TB003-500-P02BE"
+		(at 2.5 4.827 0)
+		(layer "F.Fab")
+		(uuid "23b01e3f-08c0-4f28-b6ec-398e9ebe6a17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1b41bb0-504f-424c-b52c-5698096f2f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ca24762-31fa-4dfc-879e-bad2a018ab5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -4)
+		(end 7.5 -4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fb35be8-d32e-4534-99aa-45403c1e26c2")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19ae2fe2-95f7-499f-bb31-8a40703fd8ed")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end 7.5 4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88358a54-8e40-4f2d-881f-4cbb2eeda670")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end 7.5 -4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13ff8ba2-93a6-4661-9199-ee553e38a2dd")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f521ee36-2a8d-495c-9157-a19f76fd0264")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "7ea354a1-ddc2-44e4-a0e7-47e890be4031")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,82 @@
+(footprint "BNC_ELMATIS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5 -7.7 0)
+		(layer "F.SilkS")
+		(uuid "a3801470-161b-4e3e-ad62-a4afd2910d04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BNC_ELMATIS"
+		(at 5 3.2 0)
+		(layer "F.Fab")
+		(uuid "46a5a359-ec96-4ded-aebf-ad5d4700d2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e49f3ab-c6d7-4aec-83ab-75dca56f610f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "871e2c76-6554-4b09-b8ee-0c87905817e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 5 -5.5)
+		(size 3 3)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cda11c34-f86c-4eaf-94bd-fbde43bb56d7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 5 5)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "268a3f7f-3edc-492c-b12c-1c9475b6d8e6")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 5 5)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4ae83099-a5a8-4a7b-8b7d-fc700abf47ec")
+	)
+	(embedded_fonts no)
+)
